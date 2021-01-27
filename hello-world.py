@@ -1,9 +1,5 @@
-#--------------------------------------------------------------------------------------------
-#  Copyright (c) Red Hat, Inc. All rights reserved.
-#  Licensed under the MIT License. See LICENSE in the project root for license information.
-#--------------------------------------------------------------------------------------------
+def main():
+  return "Hello World"
 
-# This program prints Hello, world!
-
-str = 'world'
-print('Hello, ' + str + '!')
+if __name__ == "__main__":
+  print(main())
